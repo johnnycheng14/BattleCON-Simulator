@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
+  "name": "battleconsim",
   "version": "1.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Online simulator for the board game BattleCON",
   "engines": {
     "node": ">= 7.0.0"
   },
@@ -33,8 +33,6 @@
       "git add"
     ]
   },
-  "author": "Fullstack Academy of Code",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.15.3",
     "compression": "^1.7.1",
@@ -44,6 +42,7 @@
     "history": "^4.6.3",
     "morgan": "^1.8.1",
     "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
     "passport-google-oauth": "^1.0.0",
     "pg": "^6.1.2",
     "pg-hstore": "^2.3.2",
