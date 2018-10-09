@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-
+import Board from './game'
 /**
  * COMPONENT
  */
@@ -11,6 +11,7 @@ export const UserHome = props => {
   return (
     <div>
       <h3>Welcome, {username}</h3>
+      <Board />
     </div>
   )
 }
